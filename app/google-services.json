@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "321821433359",
+    "firebase_url": "https://sysventas-e0694.firebaseio.com",
+    "project_id": "sysventas-e0694",
+    "storage_bucket": "sysventas-e0694.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:321821433359:android:d6c5a14422f46ee7",
+        "android_client_info": {
+          "package_name": "com.zannier.app.exa02_pdm_zvargas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "321821433359-3b201r8nbn9bgcf2oosccknrhfqe2f2v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDr-KAqS6qb0dBD_RB33KqhCSNcSBboPtg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

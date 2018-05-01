@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">EXA02-PDM-ZVargas</string>
+    <string name="app_name">Sys-Ventas</string>
+    <string name="noaction">splash</string>
+    <string name="inicio">Inicio</string>
+    <string name="producto">Productos</string>
+    <string name="venta">Ventas</string>
 </resources>
