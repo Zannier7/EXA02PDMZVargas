@@ -2,27 +2,20 @@ package com.zannier.app.exa02_pdm_zvargas.Entidad;
 
 public class Producto {
 
-    private int idproducto;
+
     private String nomProducto;
-    private Double precio;
-    private int stock;
+    private String precio;
+    private String stock;
+    private int Imgproduct;
 
     public Producto() {
     }
 
-    public Producto(int idproducto, String nomProducto, Double precio, int stock) {
-        this.idproducto = idproducto;
+    public Producto(String nomProducto, String precio, String stock, int imgproduct) {
         this.nomProducto = nomProducto;
         this.precio = precio;
         this.stock = stock;
-    }
-
-    public int getIdproducto() {
-        return idproducto;
-    }
-
-    public void setIdproducto(int idproducto) {
-        this.idproducto = idproducto;
+        Imgproduct = imgproduct;
     }
 
     public String getNomProducto() {
@@ -33,19 +26,27 @@ public class Producto {
         this.nomProducto = nomProducto;
     }
 
-    public Double getPrecio() {
+    public String getPrecio() {
         return precio;
     }
 
-    public void setPrecio(Double precio) {
+    public void setPrecio(String precio) {
         this.precio = precio;
     }
 
-    public int getStock() {
+    public String getStock() {
         return stock;
     }
 
-    public void setStock(int stock) {
+    public void setStock(String stock) {
         this.stock = stock;
+    }
+
+    public int getImgproduct() {
+        return Imgproduct;
+    }
+
+    public void setImgproduct(int imgproduct) {
+        Imgproduct = imgproduct;
     }
 }

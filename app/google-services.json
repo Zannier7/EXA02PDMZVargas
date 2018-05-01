@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "321821433359-2kt80ukg3kij6tbbhmsqt55u05rd7dvp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.zannier.app.exa02_pdm_zvargas",
+            "certificate_hash": "cf7b4f95d54ccf2087d315f70de98f5a31590cec"
+          }
+        },
+        {
           "client_id": "321821433359-3b201r8nbn9bgcf2oosccknrhfqe2f2v.apps.googleusercontent.com",
           "client_type": 3
         }
@@ -29,8 +37,13 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "321821433359-3b201r8nbn9bgcf2oosccknrhfqe2f2v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         },
         "ads_service": {
           "status": 2

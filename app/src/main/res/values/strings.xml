@@ -1,7 +1,12 @@
 <resources>
     <string name="app_name">Sys-Ventas</string>
     <string name="noaction">splash</string>
+    <string name="noaction2"></string>
+
     <string name="inicio">Inicio</string>
     <string name="producto">Productos</string>
     <string name="venta">Ventas</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
