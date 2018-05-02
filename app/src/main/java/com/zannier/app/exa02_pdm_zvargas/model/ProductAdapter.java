@@ -21,9 +21,9 @@ import java.util.List;
 public class ProductAdapter extends RecyclerView.Adapter<ProductAdapter.MyViewHolder>{
 
     private Context context;
-    private List<Producto> pData;
+    private ArrayList<Producto> pData;
 
-    public ProductAdapter(Context context, List<Producto> pData) {
+    public ProductAdapter(Context context, ArrayList<Producto> pData) {
         this.context = context;
         this.pData = pData;
     }
@@ -41,10 +41,9 @@ public class ProductAdapter extends RecyclerView.Adapter<ProductAdapter.MyViewHo
 
     @Override
     public void onBindViewHolder(@NonNull MyViewHolder holder, int position) {
-        holder.stock.setText(pData.get(position).getStock());
+        holder.stock.setText(Integer.toString(pData.get(position).getStock()));
         holder.nomproduct.setText(pData.get(position).getNomProducto());
-        holder.imageView.setImageResource(pData.get(position).getImgproduct());
-        holder.precio.setText(pData.get(position).getPrecio());
+        holder.precio.setText(String.valueOf(pData.get(position).getPrecio()));
     }
 
     @Override
@@ -54,7 +53,7 @@ public class ProductAdapter extends RecyclerView.Adapter<ProductAdapter.MyViewHo
 
     public static class MyViewHolder extends RecyclerView.ViewHolder{
 
-        ImageView imageView;
+
         TextView nomproduct;
         TextView stock;
         TextView precio;
@@ -62,7 +61,6 @@ public class ProductAdapter extends RecyclerView.Adapter<ProductAdapter.MyViewHo
         public MyViewHolder(View itemView) {
             super(itemView);
 
-            imageView = (ImageView) itemView.findViewById(R.id.img_product);
             nomproduct = (TextView) itemView.findViewById(R.id.nomproduct);
             stock = (TextView) itemView.findViewById(R.id.stock);
             precio = (TextView) itemView.findViewById(R.id.precio);

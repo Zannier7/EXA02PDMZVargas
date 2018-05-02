@@ -7,15 +7,14 @@ public class Producto{
 
 
     private String nomProducto;
-    private String precio;
-    private String stock;
+    private Double precio;
+    private int stock;
     private int Imgproduct;
 
     public Producto() {
-
     }
 
-    public Producto(String nomProducto, String precio, String stock, int imgproduct) {
+    public Producto(String nomProducto, Double precio, int stock, int imgproduct) {
         this.nomProducto = nomProducto;
         this.precio = precio;
         this.stock = stock;
@@ -30,19 +29,19 @@ public class Producto{
         this.nomProducto = nomProducto;
     }
 
-    public String getPrecio() {
+    public Double getPrecio() {
         return precio;
     }
 
-    public void setPrecio(String precio) {
+    public void setPrecio(Double precio) {
         this.precio = precio;
     }
 
-    public String getStock() {
+    public int getStock() {
         return stock;
     }
 
-    public void setStock(String stock) {
+    public void setStock(int stock) {
         this.stock = stock;
     }
 

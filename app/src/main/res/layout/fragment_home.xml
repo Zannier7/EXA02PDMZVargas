@@ -6,13 +6,13 @@
     tools:context=".view.HomeFragment"
     android:layout_gravity="center">
 
-    <com.github.mikephil.charting.charts.PieChart
-        android:id="@+id/proChart"
-        android:layout_width="match_parent"
-        android:layout_height="600dp"
-        android:layout_gravity="center">
 
-    </com.github.mikephil.charting.charts.PieChart>
+       <com.github.mikephil.charting.charts.PieChart
+           android:id="@+id/proChart"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_above="@+id/seekBar1" />
+
 
 
 </FrameLayout>

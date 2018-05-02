@@ -4,6 +4,7 @@ import android.util.Log;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
+import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -21,6 +22,8 @@ public class LoginModel implements LoginInterface.Model{
 
     private LoginInterface.Presentator presentator;
     private int counter=3;
+
+    private FirebaseAuth firebaseAuth;
 
     FirebaseDatabase firebaseDatabase;
     DatabaseReference databaseReference;
