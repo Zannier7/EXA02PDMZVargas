@@ -1,40 +1,54 @@
 package com.zannier.app.exa02_pdm_zvargas.Entidad;
 
+import android.support.v7.widget.RecyclerView;
+import android.view.View;
+
 public class Venta {
-    private int idventa;
-    private String fecha;
-    private int idvendedor;
+    private String nombre;
+    private Double precio;
+    private int cantidad;
+    private Double subtotal;
 
     public Venta() {
+
     }
 
-    public Venta(int idventa, String fecha, int idvendedor) {
-        this.idventa = idventa;
-        this.fecha = fecha;
-        this.idvendedor = idvendedor;
+    public Venta(String nombre, Double precio, int cantidad, Double subtotal) {
+        this.nombre = nombre;
+        this.precio = precio;
+        this.cantidad = cantidad;
+        this.subtotal = subtotal;
     }
 
-    public int getIdventa() {
-        return idventa;
+    public String getNombre() {
+        return nombre;
     }
 
-    public void setIdventa(int idventa) {
-        this.idventa = idventa;
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
     }
 
-    public String getFecha() {
-        return fecha;
+    public Double getPrecio() {
+        return precio;
     }
 
-    public void setFecha(String fecha) {
-        this.fecha = fecha;
+    public void setPrecio(Double precio) {
+        this.precio = precio;
     }
 
-    public int getIdvendedor() {
-        return idvendedor;
+    public int getCantidad() {
+        return cantidad;
     }
 
-    public void setIdvendedor(int idvendedor) {
-        this.idvendedor = idvendedor;
+    public void setCantidad(int cantidad) {
+        this.cantidad = cantidad;
+    }
+
+    public Double getSubtotal() {
+        return subtotal;
+    }
+
+    public void setSubtotal(Double subtotal) {
+        this.subtotal = subtotal;
     }
 }

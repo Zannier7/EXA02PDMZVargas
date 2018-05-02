@@ -3,13 +3,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".view.HomeFragment">
+    tools:context=".view.HomeFragment"
+    android:layout_gravity="center">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:id="@+id/mongol"
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/proChart"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="600dp"
+        android:layout_gravity="center">
+
+    </com.github.mikephil.charting.charts.PieChart>
+
 
 </FrameLayout>

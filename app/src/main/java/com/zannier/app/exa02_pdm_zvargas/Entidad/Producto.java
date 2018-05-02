@@ -1,6 +1,9 @@
 package com.zannier.app.exa02_pdm_zvargas.Entidad;
 
-public class Producto {
+import android.support.v7.widget.RecyclerView;
+import android.view.View;
+
+public class Producto{
 
 
     private String nomProducto;
@@ -9,6 +12,7 @@ public class Producto {
     private int Imgproduct;
 
     public Producto() {
+
     }
 
     public Producto(String nomProducto, String precio, String stock, int imgproduct) {

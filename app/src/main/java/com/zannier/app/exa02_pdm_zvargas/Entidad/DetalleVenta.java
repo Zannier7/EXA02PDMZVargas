@@ -1,6 +1,6 @@
 package com.zannier.app.exa02_pdm_zvargas.Entidad;
 
-public class Detalle_Venta {
+public class DetalleVenta {
 
     private int iddetalle_venta;
     private int idventa;
@@ -8,10 +8,10 @@ public class Detalle_Venta {
     private Double precio;
     private int cantidad;
 
-    public Detalle_Venta() {
+    public DetalleVenta() {
     }
 
-    public Detalle_Venta(int iddetalle_venta, int idventa, int idproducto, Double precio, int cantidad) {
+    public DetalleVenta(int iddetalle_venta, int idventa, int idproducto, Double precio, int cantidad) {
         this.iddetalle_venta = iddetalle_venta;
         this.idventa = idventa;
         this.idproducto = idproducto;
